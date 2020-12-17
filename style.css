@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    display: flex;
+    /* position: relative; */
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background: rgb(133, 131, 128);
+    overflow: hidden;
+}
+.typing_test{
+    position: relative;
+}
+.typing_test h1{
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 20px;
+}
+.typing_test textarea{
+    border: 20px solid rgb(139, 135, 135);
+    outline: none;
+    font-size: 15px;
+    color: white;
+    background-color: rgb(3, 3, 3);
+    padding: 15px;
+    width: 100%;
+}
+.typing_test button{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-bottom: -50px;
+    padding: 5px 35px;
+    font-size: 20px;
+    outline: none;
+}
+.typing_test button:hover{
+    background-color: turquoise;
+
+}
